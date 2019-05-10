@@ -1,8 +1,8 @@
-# Using Classifier Models to Predict Which Dota 2 Team Will Win In The First 5 Minutes
+# Using Machine Learning to Predict Which Dota 2 Team Will Win
 
 # Project Overview
 
-For this project, I entered a Kaggle competition which provided a dataset containing over 181 thousand matches to train my classification models in order to predict whether the 'Radiant Team' will win. 
+For this project, I entered a Kaggle competition which provided a dataset containing over 181 thousand matches to train my classification models in order to predict whether the 'Radiant Team' will win. However, the kicker was that only data from the first 5 minutes was provided. This makes it very difficult to accurately predict the winner because games typically last anywhere from 20 to 50 minutes. So the data only provides a very brief snapshot.
 
 Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams of 5 players face off until one team destroys the other's base. Based on this, to predict the winner required a classification problem as there are only 2 outcomes, win or loss.
 

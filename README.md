@@ -49,7 +49,7 @@ Based on the results above, I knew I had to do a lot of feature engineering to p
 Having experience playing MOBAs, I know that not all heros are created equally and the character each player picks has their own % chance of winning. Since I could not extract external data for this competition, I used the massive amount of data I already had for these 181 thousand matches and calculated each hero's chance of winning.
 
 <p align="center">
-  <img src="./dota-2-prediction/Images/Initial Dataframe.png" title="Dataframe">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Dataframe.png" title="Dataframe">
 </p>
 
 <p align="center">

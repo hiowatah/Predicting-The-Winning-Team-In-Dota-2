@@ -72,6 +72,8 @@ After doing all this feature engineering, I reran my models to check for improve
 
 <u><b> Model Optimizations and Conclusion </b></u>
 
+I used gridsearch to optimize the parameters around my logistic regression model to see how hyper parameter tuning would improve my model. I also took a look at the best parameters for my models and it was all of the ones I engineered.
+
 <p align="center">
   <img src="./Mod_3_Project/dota-2-prediction/Images/GridSearch.png" title="Logistic Regression after using GridSearch">
 </p>
@@ -80,7 +82,6 @@ After doing all this feature engineering, I reran my models to check for improve
   <img src="./Mod_3_Project/dota-2-prediction/Images/Best Features.png" title="Best Features">
 </p>
 
-I used gridsearch to optimize the parameters around my logistic regression model to see how hyper parameter tuning would improve my model. I also took a look at the best parameters for my models and it was all of the ones I engineered.
 
 This brought the realization that feature engineering is the most important part of machine learning. If you have features that easily predict the problem, then that is great. However, if you are given limited data points and they don't do a great job explaining the problem by themselves, it really takes a strong understanding of the problem and your features and how they relate with each other in order to fully utilize what you have to make a good model. 
 

@@ -94,6 +94,12 @@ venv.bak/
 .spyderproject
 .spyproject
 
+#Large Files
+Dataframe_after_first_iteration.csv
+Graphs.ipynb
+Random_Forest.pkl
+XGBoost.pkl
+
 # Rope project settings
 .ropeproject
 

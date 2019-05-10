@@ -31,7 +31,7 @@ Fortunately, my dataset did not have much imbalance and so I created a KNN class
 </p>
 
 <p align="center">
-  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Logistic Regression.png" title="Logistic Regression">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Logisitic Regression.png" title="Logistic Regression">
 </p>
 
 <p align="center">

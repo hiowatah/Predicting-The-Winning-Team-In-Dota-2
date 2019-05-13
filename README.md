@@ -4,11 +4,18 @@
 
 For this project, I entered a Kaggle competition which provided a dataset containing over 181 thousand matches to train my classification models in order to predict whether the 'Radiant Team' will win. However, the kicker was that only data from the first 5 minutes was provided. This makes it very difficult to accurately predict the winner because games typically last anywhere from 20 to 50 minutes. So the data only provides a very brief snapshot.
 
-Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams of 5 players face off until one team destroys the other's base. Based on this, to predict the winner required a classification problem as there are only 2 outcomes, win or loss.
+Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams of 5 players face off until one team destroys the other's base. Based on this, predicting the winner required a classifier model as there are only 2 outcomes, win or loss.
+
+<u><b> Hypothesis </b></u>
+
+Based on my experience with League of Legends, another MOBA, I believe that features related to the heros picked, the number of kills the team has as well as the gold lead should be the strongest indicators of which team will win. 
+
+However, also based on my experience with this genre, I know that the first 5 minutes do not tell the entire story of the match itself and it will be tough to predict the outcome regardless of features.
+
 
 <u><b> Baseline Model and Initial EDA </b></u>
 
-Just looking at the dataset, I used my intuition to create new features to help make it more apparent to the model the relationship of certain columns with one another. I created new features to congregate the team scores and comparing them and then removing the original features in order to ensure a simple model.
+Looking at the dataset, I used my intuition to create new features to help make it more apparent to the model the relationship of certain columns with one another. I engineered new features to put them in the perspective of one team to help the model make more linear relationships with the outcome of the game and the different features.
 
 My dataset when I prepared my first set of models contained 45 features and the following correlation plot:
 
@@ -31,7 +38,7 @@ Fortunately, my dataset did not have much imbalance and so I created a KNN class
 </p>
 
 <p align="center">
-  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Logisitic Regression.png" title="Logistic Regression">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Logisitic.png" title="Logistic Regression">
 </p>
 
 <p align="center">

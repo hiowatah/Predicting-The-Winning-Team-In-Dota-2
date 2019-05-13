@@ -33,6 +33,7 @@ Another thing to look for before I started modeling was to check for class imbal
 
 Fortunately, my dataset did not have much imbalance and so I created a KNN classifier, Logistic Regression, Decision Trees, and Random Forests. Unfortunately, my tree based models and KNN classifier had a terrible time predicting the outcomes.
 
+
 <p align="center">
   <img src="./Mod_3_Project/dota-2-prediction/Images/Initial KNN.png" title="KNN">
 </p>

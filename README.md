@@ -4,19 +4,36 @@
 
 For this project, I entered a Kaggle competition which provided a dataset containing over 181 thousand matches to train my classification models in order to predict whether the 'Radiant Team' will win. However, the kicker was that only data from the first 5 minutes was provided. This makes it very difficult to accurately predict the winner because games typically last anywhere from 20 to 50 minutes. So the data only provides a very brief snapshot.
 
-Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams of 5 players face off until one team destroys the other's base. Based on this, predicting the winner required a classifier model as there are only 2 outcomes, win or loss.
+Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams (Radiant and Dire) of 5 players face off until one team destroys the other's base. Based on this, predicting the winner required a classifier model as there are only 2 outcomes, win or loss.
 
-<u><b> Hypothesis </b></u>
+# Hypothesis
 
 Based on my experience with League of Legends, another MOBA, I believe that features related to the heros picked, the number of kills the team has as well as the gold lead should be the strongest indicators of which team will win. 
 
 However, also based on my experience with this genre, I know that the first 5 minutes do not tell the entire story of the match itself and it will be tough to predict the outcome regardless of features.
 
 
-<u><b> Baseline Model and Initial EDA </b></u>
+# Initial EDA 
 
 Looking at the dataset, I used my intuition to create new features to help make it more apparent to the model the relationship of certain columns with one another. I engineered new features to put them in the perspective of one team to help the model make more linear relationships with the outcome of the game and the different features.
 
+To get a sense of my predictive power before I began modeling, I graphed some of my features which I hypothesized would be the strongest. Please see below for a graph comparing the number of kills by the 'Radiant' team and the number of victories in my dataset and another graph comparing the amount of gold accumulated by the 'Radiant' team and the number of victories in my dataset. 
+
+<u><b> Radiant Kills and Number of Victories </b></u>
+
+<p align="center">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Radian Kills.png" title="Radiant Kills">
+</p>
+
+<u><b> Radiant Gold and Number of Victories </b></u>
+
+<p align="center">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Radiant Gold.png" title="Radiant Gold">
+</p>
+
+These 2 graphs show that the mean gold and kills are just slightly higher for the 'Radiant' wins plot vs the 'Radiant' losses plot. This shows that these features are only slightly predictive for a Radiant win as the difference isn't high enough to say "if the Radiant team has more gold at the 5 minute mark then they will always win". 
+
+<u><b> Correlation Plot </b></u>
 My dataset when I prepared my first set of models contained 45 features and the following correlation plot:
 
 <p align="center">
@@ -27,11 +44,15 @@ While it is hard to see from this image what the features are, the important tak
 
 Another thing to look for before I started modeling was to check for class imbalance in my data set as that would alter my strategy for modeling.
 
+<u><b> Class Imbalance </b></u>
+
 <p align="center">
   <img src="./Mod_3_Project/dota-2-prediction/Images/Class Imbalance.png" title="Class Imbalance">
 </p>
 
 Fortunately, my dataset did not have much imbalance and so I created a KNN classifier, Logistic Regression, Decision Trees, and Random Forests. Unfortunately, my tree based models and KNN classifier had a terrible time predicting the outcomes.
+
+# Initial Models
 
 <u><b> Initial KNN Model </b></u>
 
@@ -56,6 +77,8 @@ Fortunately, my dataset did not have much imbalance and so I created a KNN class
 <p align="center">
   <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Random Forest.png" title="Random Forest" width="500" height="500">
 </p>
+
+# Feature Engineering
 
 <u><b> Feature Engineering and Model Improvements </b></u>
 

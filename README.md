@@ -22,7 +22,7 @@ To get a sense of my predictive power before I began modeling, I graphed some of
 <u><b> Radiant Kills and Number of Victories </b></u>
 
 <p align="center">
-  <img src="./Mod_3_Project/dota-2-prediction/Images/Radian Kills.png" title="Radiant Kills">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Radiant Kills.png" title="Radiant Kills">
 </p>
 
 <u><b> Radiant Gold and Number of Victories </b></u>
@@ -34,6 +34,7 @@ To get a sense of my predictive power before I began modeling, I graphed some of
 These 2 graphs show that the mean gold and kills are just slightly higher for the 'Radiant' wins plot vs the 'Radiant' losses plot. This shows that these features are only slightly predictive for a Radiant win as the difference isn't high enough to say "if the Radiant team has more gold at the 5 minute mark then they will always win". 
 
 <u><b> Correlation Plot </b></u>
+
 My dataset when I prepared my first set of models contained 45 features and the following correlation plot:
 
 <p align="center">

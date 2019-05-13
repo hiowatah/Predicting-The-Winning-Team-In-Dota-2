@@ -39,15 +39,15 @@ Fortunately, my dataset did not have much imbalance and so I created a KNN class
 </p>
 
 <p align="center">
-  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Logisitic.png" title="Logistic Regression" width="400" height="600">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Logisitic.png" title="Logistic Regression" width="400" height="400">
 </p>
 
 <p align="center">
-  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Decision Trees.png" title="Decision Trees"width="300" height="600">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Decision Trees.png" title="Decision Trees"width="400" height="400">
 </p>
 
 <p align="center">
-  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Random Forest.png" title="Random Forest"width="400" height="700">
+  <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Random Forest.png" title="Random Forest"width="400" height="400">
 </p>
 
 <u><b> Feature Engineering and Model Improvements </b></u>

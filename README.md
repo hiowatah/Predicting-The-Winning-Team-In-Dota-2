@@ -59,13 +59,17 @@ Fortunately, my dataset did not have much imbalance and so I created a KNN class
 
 <u><b> Feature Engineering and Model Improvements </b></u>
 
-Based on the results above, I knew I had to do a lot of feature engineering to pull out the relationship between my features in order to better explain the outcome. I had a feeling that my models were reading my columns containing the hero unique id (which character the players picked) as a continuous variable rather than a categorical and so I turned that column into dummy variables. 
+Based on the results above, the features as they are do not lend themselves well to the classifier models I used as each model has a very hard time recognizing a pattern between the feature values and the result of the game. 
 
 Having experience playing MOBAs, I know that not all heros are created equally and the character each player picks has their own % chance of winning. Since I could not extract external data for this competition, I used the massive amount of data I already had for these 181 thousand matches and calculated each hero's chance of winning.
+
+<u><b> Initial Dataframe </b></u>
 
 <p align="center">
   <img src="./Mod_3_Project/dota-2-prediction/Images/Initial DataFrame.png" title="Dataframe">
 </p>
+
+<u><b> After using pd.Melt </b></u>
 
 <p align="center">
   <img src="./Mod_3_Project/dota-2-prediction/Images/Melt.png" title="Dataframe Melted">
@@ -101,8 +105,3 @@ I used gridsearch to optimize the parameters around my logistic regression model
 This brought the realization that feature engineering is the most important part of machine learning. If you have features that easily predict the problem, then that is great. However, if you are given limited data points and they don't do a great job explaining the problem by themselves, it really takes a strong understanding of the problem and your features and how they relate with each other in order to fully utilize what you have to make a good model. 
 
 Feature engineering is an artform and should be heavily prioritized in all projects using machine learning.
-
-
-
-
-

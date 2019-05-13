@@ -125,7 +125,10 @@ I used gridsearch to optimize the parameters around my logistic regression model
   <img src="./Mod_3_Project/dota-2-prediction/Images/Best Features.png" title="Best Features">
 </p>
 
+# Conclusion
 
-This brought the realization that feature engineering is the most important part of machine learning. If you have features that easily predict the problem, then that is great. However, if you are given limited data points and they don't do a great job explaining the problem by themselves, it really takes a strong understanding of the problem and your features and how they relate with each other in order to fully utilize what you have to make a good model. 
+This project has made me realize that feature engineering may be the most important part of machine learning. If you have features that easily predict the problem, then that is great. However, if you are given limited data points and they don't do a great job explaining the problem by themselves, it really takes a strong understanding of the problem and your features and how they relate with each other in order to fully utilize what you have to make a good model. 
+
+Closely following this would be hyperparameter tuning. While my tree based models were initially terrible, after tuning out my random forest model, I was able to get strong predictions out the model which is a stark contrast with the initial results.
 
 Feature engineering is an artform and should be heavily prioritized in all projects using machine learning.

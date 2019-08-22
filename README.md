@@ -132,6 +132,8 @@ This project has made me realize that feature engineering may be the most import
 
 Closely following this would be hyperparameter tuning. While my tree based models were initially terrible, after tuning out my random forest model, I was able to get strong predictions out the model which is a stark contrast with the initial results.
 
+Trying to predict the match outcome with very limited information, such as the data from the first 5 minutes is going to be very difficult. 5 minutes out of a match that typically lasts out 35-45 minutes is roughly 11-15% of the match info. So getting results upwards of 67% is really great because it was only possible through my knowledge of the domain and my ability to engineer new features to help my models succeed. 
+
 With the model above, I have placed 9th out of 31 participants on the kaggle competition with participants from 2-10 having results very similar to one another. 
 
 Feature engineering is an artform and should be heavily prioritized in all projects using machine learning.

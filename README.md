@@ -4,13 +4,13 @@
 
 For this project, I entered a Kaggle competition which provided a dataset containing over 181 thousand matches to train my classification models in order to predict whether the 'Radiant Team' will win. However, the kicker was that only data from the first 5 minutes was provided. This makes it very difficult to accurately predict the winner because games typically last anywhere from 20 to 50 minutes. So the data only provides a very brief snapshot.
 
-Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams (Radiant and Dire) of 5 players face off until one team destroys the other's base. Based on this, predicting the winner required a classifier model as there are only 2 outcomes, win or loss.
+Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams (Radiant and Dire) of 5 players face off until one team destroys the other's base. Based on this, predicting the winner required a binary classifier model as there are only 2 outcomes, win or loss.
 
 # Hypothesis
 
 Based on my experience with League of Legends, another MOBA, I believe that features related to the heros picked, the number of kills the team has as well as the gold lead should be the strongest indicators of which team will win. 
 
-However, also based on my experience with this genre, I know that the first 5 minutes do not tell the entire story of the match itself and it will be tough to predict the outcome regardless of features.
+However, also based on my experience with this genre, I know that the first 5 minutes do not tell the entire story of the match itself and it will be tough to predict the outcome regardless of features. Due to this, I do not expect a great accuracy rating, but my final model should be greater than 50% as some games are inherently easier to predict due to one side getting an early lead. This would make it better to predict than a coin-flip.
 
 
 # Initial EDA 

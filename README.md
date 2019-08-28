@@ -17,7 +17,7 @@ However, also based on my experience with this genre, I know that the first 5 mi
 
 Looking at the dataset, I used my intuition to create new features to help make it more apparent to the model the relationship of certain columns with one another. I engineered new features to put them in the perspective of one team to help the model make more linear relationships with the outcome of the game and the different features.
 
-To get a sense of my predictive power before I began modeling, I graphed some of my features which I hypothesized would be the strongest. Please see below for a graph comparing the number of kills by the 'Radiant' team and the number of victories in my dataset and another graph comparing the amount of gold accumulated by the 'Radiant' team and the number of victories in my dataset. 
+To get a sense of my predictive power before I began modeling, I graphed some of my features which I hypothesized would be the strongest. As with any game, these features include kills and gold earned. They should have a strong correlation with the number of victories as they tend to be a prerequisite of winning a game. Please see below for a graph comparing the number of kills by the 'Radiant' team and the number of victories in my dataset and another graph comparing the amount of gold accumulated by the 'Radiant' team and the number of victories in my dataset. 
 
 <u><b> Radiant Kills and Number of Victories </b></u>
 

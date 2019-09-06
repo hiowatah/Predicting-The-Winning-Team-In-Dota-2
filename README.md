@@ -10,7 +10,7 @@ Dota 2 is a MOBA (Multiplayer Online Battle Arena) in which 2 teams (Radiant and
 
 Based on my experience with League of Legends, another MOBA, I believe that features related to the heros picked, the number of kills the team has as well as the gold lead should be the strongest indicators of which team will win. 
 
-However, also based on my experience with this genre, I know that the first 5 minutes do not tell the entire story of the match itself and it will be tough to predict the outcome regardless of features. Due to this, I do not expect a great accuracy rating, but my final model should be greater than 50% as some games are inherently easier to predict due to one side getting an early lead. This would make it better to predict than a coin-flip.
+However, also based on my experience with this genre, I know that the first 5 minutes do not tell the entire story of the match itself and it will be tough to predict the outcome regardless of features. Due to this, I do not expect a great accuracy rating, but my final model should be greater than 50% as some games are inherently easier to predict due to one side getting an early lead. This would make it better to predict than a coin-flip. Logic dictates that if I have ~14% of the match data, I should be able to predict with 14% more accuracy than a coin flip. As you will see, my model exceeded this baseline expectation.
 
 
 # Initial EDA 

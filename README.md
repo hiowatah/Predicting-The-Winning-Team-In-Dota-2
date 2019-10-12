@@ -51,7 +51,7 @@ Another thing to look for before I started modeling was to check for class imbal
   <img src="./Mod_3_Project/dota-2-prediction/Images/Class Imbalance.png" title="Class Imbalance">
 </p>
 
-Fortunately, my dataset did not have much imbalance and so I created a KNN classifier, Logistic Regression, Decision Trees, and Random Forests. Unfortunately, my tree based models and KNN classifier had a terrible time predicting the outcomes.
+Fortunately, my dataset did not have much imbalance and so I created a KNN classifier, Logistic Regression, Decision Trees, and Random Forests. Unfortunately, my inital models were no better than flipping a coin for each game. This was especially true for my tree based models and so I need I would have to do a lot of hyper parameter tuning in order to improve my performances.
 
 # Initial Models
 

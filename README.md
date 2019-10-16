@@ -79,7 +79,7 @@ Fortunately, my dataset did not have much imbalance and so I created a KNN class
   <img src="./Mod_3_Project/dota-2-prediction/Images/Initial Random Forest.png" title="Random Forest" width="500" height="500">
 </p>
 
-Based on these initial models, I knew I had to do some hyperparameter tuning to allow KNN and the tree based models to work with my dataset more effectively. While the models did improve their classification prowess, they did not perform as well as the logistic regression model based on my results on the Kaggle competition. As a result, I focused on maximizing the results of my logistic regression model.
+Based on these initial models, I knew I had to do some hyperparameter tuning to allow KNN and the tree based models to work with my dataset more effectively. My tree based models have terrible recall since they predict almost everything as a loss. While the models did improve their classification prowess, they did not perform as well as the logistic regression model based on my results on the Kaggle competition. As a result, I focused on maximizing the results of my logistic regression model.
 # Feature Engineering
 
 <u><b> Feature Engineering and Model Improvements </b></u>
